@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+main {
+  margin-top: 70px;
+  margin-left: 10px;
+}
+.maxwidth100 {
+  width: 100%;
+}
+.backnone header {
+  background-color: transparent;
+  box-shadow: none;
+}
+.MuiTab-root {
+  background-color: #000;
+  margin: 0px 5px;
+}
+.MuiTabs-flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+.MuiTab-root {
+  background: #000 !important;
+  margin: 0 5px !important;
+  padding: 20px 60px !important;
+}
+.MuiTabs-flexContainer .numbers {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  color: black;
+  font-size: 19px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+.MuiTabs-flexContainer .number1 {
+  background: red;
+  color: #fff;
+}
+.MuiTabs-flexContainer .number2 {
+  background: yellow;
+}
+.MuiTabs-flexContainer .number3 {
+  background: orange;
+  color: #fff;
+}
+.MuiTabs-flexContainer .number4 {
+  background: green;
+  color: #fff;
+}
+.MuiTabs-indicator {
+  height: 5px !important;
+}
+.MuiTypography-body1 {
+  flex-basis: 33.33%;
+}
+.MuiDivider-root {
+  margin: 0px 10px !important;
+  background-color: #9a9a9a !important;
+}
+.MuiAccordionDetails-root {
+  flex-direction: column;
+}
